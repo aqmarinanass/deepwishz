@@ -259,3 +259,13 @@ window.addEventListener('DOMContentLoaded', () => {
         if (areaInstan) areaInstan.classList.add('hidden');
     }
 });
+
+
+function bukaAplikasi() {
+    document.getElementById("home").style.display = "none";
+    document.querySelector(".philosophy").style.display = "none";
+    document.getElementById("about").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+
+    document.getElementById("produk-surat").classList.remove("hidden");
+}
