@@ -1,3 +1,24 @@
+<script>
+    function bukaAplikasi() {
+        // Sembunyikan semua section yang ada di web lu
+        document.getElementById("home").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("contact").style.display = "none";
+        
+        // Tampilkan aplikasi surat
+        document.getElementById("aplikasi-surat").style.display = "block";
+    }
+
+    function tutupAplikasi() {
+        // Tampilkan balik section utama
+        document.getElementById("home").style.display = "block";
+        document.getElementById("about").style.display = "block";
+        document.getElementById("contact").style.display = "block";
+        
+        // Sembunyikan aplikasi surat
+        document.getElementById("aplikasi-surat").style.display = "none";
+    }
+</script>
 function mulaiAplikasi() {
     const halAwal = document.getElementById('halaman-awal');
     const menuTema = document.getElementById('menu-tema');
